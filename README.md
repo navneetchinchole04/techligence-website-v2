@@ -1,36 +1,199 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Techligence Robotics Website
 
-## Getting Started
+A modern, responsive corporate website for Techligence Robotics built using Next.js, TypeScript, Tailwind CSS, MongoDB Atlas, and Vercel.
 
-First, run the development server:
+## Overview
+
+The Techligence Robotics website serves as the company's digital presence, showcasing intelligent service robotics solutions for industries such as hospitality, healthcare, corporate offices, retail environments, and public spaces.
+
+The platform provides product information, industry solutions, company details, and a contact system that stores customer inquiries in MongoDB and allows administrators to manage submissions through a secure dashboard.
+
+---
+
+## Live Website
+
+Production URL:
+
+https://techligence-robotics.vercel.app
+
+---
+
+## Features
+
+### Public Website
+
+* Responsive Landing Page
+* About Us Page
+* Products Page
+* Industries Page
+* Contact Page
+* Mobile-Friendly Design
+* Modern UI/UX
+* Dark Theme Interface
+* Interactive Assistant Bot
+
+### Contact Management
+
+* Contact Form Submission
+* MongoDB Atlas Integration
+* Real-Time Inquiry Storage
+* Secure API Endpoints
+
+### Admin Panel
+
+* Admin Login
+* Protected Dashboard
+* View Customer Inquiries
+* Centralized Lead Management
+
+### Deployment
+
+* Production Deployment on Vercel
+* GitHub Integration
+* Automatic Continuous Deployment
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* Next.js 16
+* React 19
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* Next.js API Routes
+* MongoDB Atlas
+* Mongoose
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── app/
+│   ├── about/
+│   ├── products/
+│   ├── industries/
+│   ├── contact/
+│   ├── admin/
+│   └── api/
+│
+├── components/
+│   ├── Navbar
+│   ├── Footer
+│   └── InteractiveBot
+│
+├── lib/
+│   └── mongo.ts
+│
+└── models/
+    ├── Contact.ts
+    └── Product.ts
+```
+
+---
+
+## Environment Variables
+
+Create a `.env.local` file:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+
+ADMIN_EMAIL=your_admin_email
+
+ADMIN_PASSWORD=your_admin_password
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/navneetchinchole04/techligence-website-v2.git
+```
+
+Navigate to the project:
+
+```bash
+cd techligence-website-v2
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start production server:
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Business Objectives
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Establish a professional online presence
+* Showcase robotics products and solutions
+* Generate customer leads
+* Streamline inquiry management
+* Support future AI-driven customer interactions
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future Enhancements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* AI Chat Assistant
+* Product Management Dashboard
+* Analytics Dashboard
+* Email Notifications
+* Demo Booking System
+* CRM Integration
+* Multi-language Support
+
+---
+
+## Author
+
+Navneet Chinchole
+
+B.Tech Electronics & Computer Engineering
+
+Web Development Intern
+
+---
+
+## License
+
+This project is developed for Techligence Robotics and is intended for business and demonstration purposes.
